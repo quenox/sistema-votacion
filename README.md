@@ -1,0 +1,35 @@
+# sistema-votacion
+
+***********************************************************************************************************
+Prueba - Sistema de Votación
+***********************************************************************************************************
+
+El proyecto ha sido desarrollado y ejecutado de forma exitosa bajo lo siguiente:
+
+
+- Base de datos MYSQL: (Tipo de servidor: MariaDB, Versión del servidor: 10.4.22-MariaDB - mariadb.org binary distribution)
+- Servidor web: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.3.33
+
+
+Instrucciones: 
+
+- Instalar xampp compatible con las versiones descritas anteriormente.
+
+- Copiar y pegar la carpeta del proyecto (sistema-votacion) en el directorio (C:\xampp\htdocs\poner-carpeta-aqui)
+
+- Abrir apache e iniciar solo el servidor web para ver si se muestra la interfaz del formulario de votación (en el navegador: http://localhost/sistema-votacion/)
+
+- Si el paso anterior está correcto, abrir la carpeta sistema-votacion/SQL/, aquí se encontrará un archivo script.sql
+
+- Desde el panel de xampp inicia el servidor de base de datos mysql
+
+- Crea una base de datos desde la interfaz de http://127.0.0.1/phpmyadmin/
+
+- Selecciona la base de datos creada (En la lista de bases de datos al lado izquierdo), selecciona la pestaña SQL y pega el contenido del archivo script.sql
+
+- Abre el archivo config.php y modifica los datos de la base de datos (probablemente solo debes cambiar el nombre de la base de datos)
+
+
+***********************************************************************************************************
+******** Ya puedes hacer las pruebas en el formulario desde http://localhost/sistema-votacion/ ************
+***********************************************************************************************************
