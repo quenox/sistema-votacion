@@ -77,9 +77,9 @@ function campoAliasValido()
         return false;
     }
 
-    if ( alias.length < 5 )
+    if ( alias.length <= 5 )
     {
-        alert('El alias debe contener al menos 5 caracteres, pero actualmente tiene solo '+alias.length);
+        alert('El alias debe contener más de 5 caracteres, pero actualmente tiene solo '+alias.length);
         return false;
     }
 
